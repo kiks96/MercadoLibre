@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <!--Logo principal-->
+            <div class="logo"> 
+                <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+            </div>
+        </div>
+    </header>
+    <main class="register">
+        <form action="">
+             <div class="form-group">
+                <label for="">Nombre Completo</label>
+                <input type="text" placeholder="Juan Perez">
+             </div>
+             <div class="form-group">
+                <label for="">Usuario</label>
+                <input type="text" placeholder="JuanPerez90">
+             </div>
+             <div class="form-group">
+                <label for="">Email</label>
+                <input type="text" placeholder="JuanPerez@hotmail.com">
+             </div>
+             <div class="form-group">
+            <label for="start">Fecha de nacimiento</label>
+            <input type="date" id="start" name="trip-start"
+                value="2022-10-31"
+                min="2022-01-01" max="2022-12-31">
+            </div>
+            <div class="form-group">
+                <label for="">Domicilio</label>
+                <input type="text" placeholder="Querétaro, Mx.">
+            </div>
+            <h4>Pérfil de usuarios</h4>
+             <div class="form-group">
+                <label for="terms">Comprador</label>
+                <input type="checkbox" value="1" name="terms">
+                <label for="terms">Vendedor</label>
+                <input type="checkbox" value="2" name="terms">
+             </div>
+
+             <h4>Intéreses</h4>
+             <div class="form-group">
+                <label for="terms">Elektro</label>
+                <input type="checkbox" value="1" name="terms">
+                <br>
+                <label for="terms">Moda</label>
+                <input type="checkbox" value="2" name="terms">
+                <br>
+                <label for="terms">Hogar</label>
+                <input type="checkbox" value="2" name="terms">
+                <br>
+                <label for="terms">Jugueteria</label>
+                <input type="checkbox" value="2" name="terms">
+                <br>
+                <label for="terms">Vida sana</label>
+                <input type="checkbox" value="2" name="terms">
+             </div>
+             <div class="btn-class" >
+                <button id="siguiente-btn" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
